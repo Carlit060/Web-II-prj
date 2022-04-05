@@ -1,12 +1,15 @@
 a.brand {
     list-style: none;
-    font-size: bold;
     color:#111;
-    size: 0rem;
+    font-weight: bold;
+    font-size: xx-large;
+    padding: 1rem;
+    text-decoration: none;
+
 }
 
 a.brand:hover {
-    color: white;
+    color: #DCCA98;
 }
 
 nav ul {
@@ -30,4 +33,21 @@ li a {
 }
 li a:hover {
     background-color: #111;
+}
+
+html {background-color: #bebebe;}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+img.bar {
+    margin-left: auto;
+    display: block;
+}
+
+figure {
+    display: inline-block;
 }
