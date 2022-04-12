@@ -1,0 +1,29 @@
+// our css code will go here
+
+@import "./partials/typography";
+@import "./vendor/normalize";
+@import "./partials/colors";
+@import "./partials/mixins";
+
+* {
+    font-family: 'Dosis', sans-serif;
+}
+
+nav {
+    @include nav;
+}
+
+@media (min-width: 1024px) {
+    nav{
+        background-color: $darker-background;
+    }
+}
+
+header {
+    h2 {
+        @include heading;
+    }
+    h1 {
+        @include title;
+    }
+}

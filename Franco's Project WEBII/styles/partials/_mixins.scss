@@ -1,0 +1,43 @@
+@mixin heading {
+    position: center;
+    font-family:'Marck Script', cursive;
+    font-size: 3em;
+    color: $secondary-color;
+    font-weight: normal;
+    padding: 10px;
+    margin: 0;
+}
+
+@mixin title {
+    position: center;
+    padding: 15px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5em;
+    color: $darker-background;
+    font-weight: bold;
+}
+
+@mixin nav {
+    background-color: $dark-background;
+    a.brand {
+        text-transform: uppercase;
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    ul {
+        margin-bottom: 15px;
+        li {
+            display: inline-block;
+            text-transform: uppercase;
+            position: right;
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 10px;
+            }
+        }
+    }
+}
